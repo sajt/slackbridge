@@ -1,9 +1,9 @@
-Docker container for [slack-irc](https://github.com/ekmartin/slack-irc)
+Docker container for [slack-irc](https://github.com/sajt/slack-irc)
 ===
 
 ### Installation
 ```
-git clone https://github.com/caktux/slackbridge
+git clone https://github.com/sajt/slackbridge
 ```
 
 ### Configuration
