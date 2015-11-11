@@ -13,7 +13,7 @@ RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install --fix-missing -y nodejs
 
 # Get slack-irc
-RUN npm install -g slack-irc-sajt
+RUN npm install -g git://github.com/sajt/slack-irc.git
 
 # Add configurations
 ADD config.json slack-irc/config.json
